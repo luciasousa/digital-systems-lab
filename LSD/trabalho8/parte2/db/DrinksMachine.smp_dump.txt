@@ -1,0 +1,9 @@
+
+State Machine - |DrinksFSM|s_currentState
+Name s_currentState.ST5 s_currentState.ST4 s_currentState.ST3 s_currentState.ST2 s_currentState.ST1 s_currentState.ST0 
+s_currentState.ST0 0 0 0 0 0 0 
+s_currentState.ST1 0 0 0 0 1 1 
+s_currentState.ST2 0 0 0 1 0 1 
+s_currentState.ST3 0 0 1 0 0 1 
+s_currentState.ST4 0 1 0 0 0 1 
+s_currentState.ST5 1 0 0 0 0 1 

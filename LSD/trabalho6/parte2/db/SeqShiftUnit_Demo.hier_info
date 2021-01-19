@@ -1,0 +1,93 @@
+|SeqShiftUnit_Demo
+LEDG[0] <= SeqShiftUnit:inst.dataOut[0]
+LEDG[1] <= SeqShiftUnit:inst.dataOut[1]
+LEDG[2] <= SeqShiftUnit:inst.dataOut[2]
+LEDG[3] <= SeqShiftUnit:inst.dataOut[3]
+LEDG[4] <= SeqShiftUnit:inst.dataOut[4]
+LEDG[5] <= SeqShiftUnit:inst.dataOut[5]
+LEDG[6] <= SeqShiftUnit:inst.dataOut[6]
+LEDG[7] <= SeqShiftUnit:inst.dataOut[7]
+KEY[0] => ClkDividerN:inst2.clkIn
+SW[0] => SeqShiftUnit:inst.dataIn[0]
+SW[1] => SeqShiftUnit:inst.dataIn[1]
+SW[2] => SeqShiftUnit:inst.dataIn[2]
+SW[3] => SeqShiftUnit:inst.dataIn[3]
+SW[4] => SeqShiftUnit:inst.dataIn[4]
+SW[5] => SeqShiftUnit:inst.dataIn[5]
+SW[6] => SeqShiftUnit:inst.dataIn[6]
+SW[7] => SeqShiftUnit:inst.dataIn[7]
+SW[8] => SeqShiftUnit:inst.siLeft
+SW[9] => SeqShiftUnit:inst.siRight
+SW[10] => SeqShiftUnit:inst.loadEn
+SW[11] => SeqShiftUnit:inst.rotate
+SW[12] => SeqShiftUnit:inst.dirLeft
+SW[13] => SeqShiftUnit:inst.shArith
+
+
+|SeqShiftUnit_Demo|SeqShiftUnit:inst
+clk => s_shiftReg[0].CLK
+clk => s_shiftReg[1].CLK
+clk => s_shiftReg[2].CLK
+clk => s_shiftReg[3].CLK
+clk => s_shiftReg[4].CLK
+clk => s_shiftReg[5].CLK
+clk => s_shiftReg[6].CLK
+clk => s_shiftReg[7].CLK
+dataIn[0] => s_shiftReg.DATAB
+dataIn[1] => s_shiftReg.DATAB
+dataIn[2] => s_shiftReg.DATAB
+dataIn[3] => s_shiftReg.DATAB
+dataIn[4] => s_shiftReg.DATAB
+dataIn[5] => s_shiftReg.DATAB
+dataIn[6] => s_shiftReg.DATAB
+dataIn[7] => s_shiftReg.DATAB
+siLeft => s_shiftReg.DATAB
+siRight => s_shiftReg.DATAA
+loadEn => s_shiftReg.OUTPUTSELECT
+loadEn => s_shiftReg.OUTPUTSELECT
+loadEn => s_shiftReg.OUTPUTSELECT
+loadEn => s_shiftReg.OUTPUTSELECT
+loadEn => s_shiftReg.OUTPUTSELECT
+loadEn => s_shiftReg.OUTPUTSELECT
+loadEn => s_shiftReg.OUTPUTSELECT
+loadEn => s_shiftReg.OUTPUTSELECT
+rotate => s_shiftReg.OUTPUTSELECT
+rotate => s_shiftReg.OUTPUTSELECT
+rotate => s_shiftReg.OUTPUTSELECT
+rotate => s_shiftReg.OUTPUTSELECT
+rotate => s_shiftReg.OUTPUTSELECT
+rotate => s_shiftReg.OUTPUTSELECT
+rotate => s_shiftReg.OUTPUTSELECT
+rotate => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+dirLeft => s_shiftReg.OUTPUTSELECT
+shArith => s_shiftReg.OUTPUTSELECT
+shArith => s_shiftReg.OUTPUTSELECT
+dataOut[0] <= s_shiftReg[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= s_shiftReg[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= s_shiftReg[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= s_shiftReg[3].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= s_shiftReg[4].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[5] <= s_shiftReg[5].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[6] <= s_shiftReg[6].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[7] <= s_shiftReg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SeqShiftUnit_Demo|ClkDividerN:inst2
+clkIn => s_divCounter[0].CLK
+clkIn => s_divCounter[1].CLK
+clkIn => s_divCounter[2].CLK
+clkIn => s_divCounter[3].CLK
+clkIn => clkOut~reg0.CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Apr 11 11:38:54 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Fase3
+Top-level Entity Name : CDown
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 667 / 114,480 ( < 1 % )
+    Total combinational functions : 667 / 114,480 ( < 1 % )
+    Dedicated logic registers : 119 / 114,480 ( < 1 % )
+Total registers : 119
+Total pins : 101 / 529 ( 19 % )
+Total virtual pins : 0
+Total memory bits : 0 / 3,981,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

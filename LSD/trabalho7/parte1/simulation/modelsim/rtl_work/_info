@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Desktop/uni/LSD/trabalho7/parte1/simulation/modelsim
+Edec2_4en
+Z1 w1554971491
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/User/Desktop/uni/LSD/trabalho7/parte1/Dec2_4En.vhd
+Z5 FC:/Users/User/Desktop/uni/LSD/trabalho7/parte1/Dec2_4En.vhd
+l0
+L4
+V8TDBeH4_La>[0LIFIj=B<0
+!s100 bR_NG>XU0D^g]c0U7Bm2M3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1554972828
+!i10b 1
+Z8 !s108 1554972828.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/uni/LSD/trabalho7/parte1/Dec2_4En.vhd|
+Z10 !s107 C:/Users/User/Desktop/uni/LSD/trabalho7/parte1/Dec2_4En.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 8 dec2_4en 0 22 8TDBeH4_La>[0LIFIj=B<0
+l11
+L10
+Z14 VK_aL@2b?_:>5Nf89UAB[70
+Z15 !s100 De`AifmjXWNR@XATJiPNc1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

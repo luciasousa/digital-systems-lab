@@ -1,0 +1,10 @@
+library IEEE;
+use IEEE.std_logic
+
+
+architecture Behave is 
+signal s_int, s_rem , s_dex : unsigned (3 downto 0);
+
+s_dex <= to_unsigned (10,4);
+s_int <= unsigned(bindata)/s_dez;
+s_rem <= unsigned(dindata) rem s_dez;

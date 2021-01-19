@@ -1,0 +1,10 @@
+|SeqDetFSM
+reset => PS.OUTPUTSELECT
+reset => PS.OUTPUTSELECT
+reset => PS.OUTPUTSELECT
+reset => PS.OUTPUTSELECT
+clk => PS~1.DATAIN
+Xin => ~NO_FANOUT~
+Yout << Yout.DB_MAX_OUTPUT_PORT_TYPE
+
+

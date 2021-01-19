@@ -1,0 +1,292 @@
+$comment
+	File created using the following command:
+		vcd file FlipFlopD_Demo.msim.vcd -direction
+$end
+$date
+	Tue Mar 19 14:38:03 2019
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module flipflopd_vhd_vec_tst $end
+$var wire 1 ! clk $end
+$var wire 1 " d $end
+$var wire 1 # q $end
+$var wire 1 $ reset $end
+$var wire 1 % set $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var wire 1 ) devoe $end
+$var wire 1 * devclrn $end
+$var wire 1 + devpor $end
+$var wire 1 , ww_devoe $end
+$var wire 1 - ww_devclrn $end
+$var wire 1 . ww_devpor $end
+$var wire 1 / ww_reset $end
+$var wire 1 0 ww_set $end
+$var wire 1 1 ww_clk $end
+$var wire 1 2 ww_d $end
+$var wire 1 3 ww_q $end
+$var wire 1 4 \q~output_o\ $end
+$var wire 1 5 \clk~input_o\ $end
+$var wire 1 6 \set~input_o\ $end
+$var wire 1 7 \d~input_o\ $end
+$var wire 1 8 \reset~input_o\ $end
+$var wire 1 9 \q~0_combout\ $end
+$var wire 1 : \q~reg0_q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+1,
+1-
+1.
+0/
+00
+01
+12
+03
+04
+05
+06
+17
+08
+19
+0:
+$end
+#20000
+1!
+11
+15
+1:
+14
+13
+1#
+#40000
+1$
+1%
+1/
+10
+16
+18
+#60000
+0!
+01
+05
+#80000
+0%
+0"
+00
+02
+07
+06
+09
+#120000
+1"
+12
+17
+#140000
+1!
+11
+15
+0:
+04
+03
+0#
+#160000
+1%
+10
+16
+#180000
+0!
+01
+05
+#200000
+0%
+0"
+0$
+00
+02
+0/
+08
+07
+06
+#240000
+1$
+1/
+18
+#260000
+1!
+11
+15
+#320000
+0$
+1%
+1"
+0/
+10
+12
+17
+16
+08
+19
+#360000
+0"
+02
+07
+#380000
+0!
+01
+05
+#400000
+1"
+12
+17
+#440000
+0"
+1$
+0%
+02
+1/
+00
+06
+18
+07
+09
+#460000
+1!
+11
+15
+#480000
+1"
+0$
+1%
+12
+0/
+10
+16
+08
+17
+19
+#500000
+0!
+01
+05
+#520000
+0"
+1$
+0%
+02
+1/
+00
+06
+18
+07
+09
+#540000
+1!
+11
+15
+#560000
+0$
+0/
+08
+#580000
+0!
+01
+05
+#600000
+1$
+1"
+1/
+12
+17
+18
+#620000
+1!
+11
+15
+#640000
+0"
+1%
+02
+10
+16
+07
+#680000
+0%
+0$
+00
+0/
+08
+06
+#700000
+0!
+01
+05
+#720000
+1%
+1"
+10
+12
+17
+16
+19
+#740000
+1!
+11
+15
+1:
+14
+13
+1#
+#760000
+1$
+1/
+18
+#800000
+0"
+02
+07
+#840000
+1"
+12
+17
+#880000
+0"
+0$
+02
+0/
+08
+07
+#960000
+1"
+1$
+12
+1/
+18
+17
+#980000
+0!
+01
+05
+#1000000

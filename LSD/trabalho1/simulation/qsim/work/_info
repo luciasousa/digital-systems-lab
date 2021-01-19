@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/User/Desktop/lsd/trabalho1/simulation/qsim
+vGateDemo
+Z0 !s110 1550345182
+!i10b 1
+!s100 FDRRA79XC8WcnQ4fo:L4j1
+I6I`^kAD>zJVTgCg1ROV211
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/User/Desktop/LSD/trabalho1/simulation/qsim
+Z3 w1550345178
+Z4 8GateDemo.vo
+Z5 FGateDemo.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1550345182.000000
+Z8 !s107 GateDemo.vo|
+Z9 !s90 -work|work|GateDemo.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@gate@demo
+vGateDemo_vlg_vec_tst
+!s110 1550345183
+!i10b 1
+!s100 4mEfzeXnijc;c^dGJQ>i]0
+I0`BEYA>CiP@1zPPnClGcm2
+R1
+R2
+w1550345176
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+!s108 1550345183.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@gate@demo_vlg_vec_tst
+vhard_block
+R0
+!i10b 1
+!s100 jCRjddZ>XFK@YR`IbfSf?3
+I2F<JDaVcX>P^YkE`8deYR0
+R1
+R2
+R3
+R4
+R5
+L0 121
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

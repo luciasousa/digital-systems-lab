@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 11 11:38:28 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Fase3
+Top-level Entity Name : CDown
+Family : Cyclone IV E
+Total logic elements : 676
+    Total combinational functions : 667
+    Dedicated logic registers : 119
+Total registers : 119
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

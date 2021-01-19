@@ -1,0 +1,21 @@
+|DrinksFSM
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+clk => s_currentState~1.DATAIN
+C => s_nextState.OUTPUTSELECT
+C => s_nextState.OUTPUTSELECT
+C => s_nextState.OUTPUTSELECT
+C => Selector1.IN3
+C => Selector2.IN3
+C => Selector3.IN4
+C => Selector4.IN4
+V => s_nextState.DATAA
+V => s_nextState.DATAA
+V => s_nextState.DATAA
+D << D.DB_MAX_OUTPUT_PORT_TYPE
+
+

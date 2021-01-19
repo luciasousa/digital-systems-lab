@@ -1,0 +1,9 @@
+|ShiftRegister4
+clk => ~NO_FANOUT~
+sin => ~NO_FANOUT~
+dataOut[0] <= <GND>
+dataOut[1] <= <GND>
+dataOut[2] <= <GND>
+dataOut[3] <= <GND>
+
+

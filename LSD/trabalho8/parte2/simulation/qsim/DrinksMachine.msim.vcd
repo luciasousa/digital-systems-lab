@@ -1,0 +1,365 @@
+$comment
+	File created using the following command:
+		vcd file DrinksMachine.msim.vcd -direction
+$end
+$date
+	Thu May 09 11:39:10 2019
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module drinksfsm_vhd_vec_tst $end
+$var wire 1 ! C $end
+$var wire 1 " clk $end
+$var wire 1 # D $end
+$var wire 1 $ reset $end
+$var wire 1 % V $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var wire 1 ) devoe $end
+$var wire 1 * devclrn $end
+$var wire 1 + devpor $end
+$var wire 1 , ww_devoe $end
+$var wire 1 - ww_devclrn $end
+$var wire 1 . ww_devpor $end
+$var wire 1 / ww_reset $end
+$var wire 1 0 ww_clk $end
+$var wire 1 1 ww_C $end
+$var wire 1 2 ww_V $end
+$var wire 1 3 ww_D $end
+$var wire 1 4 \clk~inputclkctrl_INCLK_bus\ [3] $end
+$var wire 1 5 \clk~inputclkctrl_INCLK_bus\ [2] $end
+$var wire 1 6 \clk~inputclkctrl_INCLK_bus\ [1] $end
+$var wire 1 7 \clk~inputclkctrl_INCLK_bus\ [0] $end
+$var wire 1 8 \D~output_o\ $end
+$var wire 1 9 \clk~input_o\ $end
+$var wire 1 : \clk~inputclkctrl_outclk\ $end
+$var wire 1 ; \V~input_o\ $end
+$var wire 1 < \C~input_o\ $end
+$var wire 1 = \s_nextState~0_combout\ $end
+$var wire 1 > \reset~input_o\ $end
+$var wire 1 ? \s_currentState~17_combout\ $end
+$var wire 1 @ \s_currentState.ST0~q\ $end
+$var wire 1 A \s_currentState~16_combout\ $end
+$var wire 1 B \s_currentState~11_combout\ $end
+$var wire 1 C \s_currentState.ST1~q\ $end
+$var wire 1 D \s_currentState~10_combout\ $end
+$var wire 1 E \s_currentState.ST2~q\ $end
+$var wire 1 F \s_currentState~12_combout\ $end
+$var wire 1 G \s_currentState~13_combout\ $end
+$var wire 1 H \s_currentState.ST3~q\ $end
+$var wire 1 I \s_currentState~14_combout\ $end
+$var wire 1 J \s_currentState~15_combout\ $end
+$var wire 1 K \s_currentState.ST4~q\ $end
+$var wire 1 L \s_currentState~8_combout\ $end
+$var wire 1 M \s_currentState~9_combout\ $end
+$var wire 1 N \s_currentState.ST5~q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+1,
+1-
+1.
+0/
+10
+01
+02
+03
+08
+19
+1:
+0;
+0<
+1=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+14
+15
+16
+17
+$end
+#40000
+1!
+0"
+1%
+11
+00
+12
+1;
+09
+1<
+07
+1A
+0=
+1B
+1F
+1?
+0:
+#80000
+0%
+02
+0;
+0F
+#120000
+1%
+0!
+12
+01
+0<
+1;
+1F
+0A
+1G
+#160000
+0%
+02
+0;
+1=
+0B
+0F
+0G
+0?
+#200000
+1!
+1"
+11
+10
+19
+1<
+17
+0=
+1A
+1B
+1?
+1:
+1@
+1C
+1D
+0A
+#240000
+0"
+00
+09
+07
+0:
+#400000
+1"
+0!
+1%
+10
+01
+12
+1;
+0<
+19
+17
+0D
+1I
+1J
+1:
+0C
+1K
+1M
+0I
+0J
+#440000
+0%
+02
+0;
+1=
+0B
+1I
+1J
+0M
+#480000
+0"
+00
+09
+07
+0:
+#520000
+1"
+1%
+1!
+10
+12
+11
+1<
+1;
+19
+17
+0I
+0=
+1B
+0J
+1M
+1:
+0K
+1N
+0?
+0M
+18
+13
+1#
+#560000
+0%
+02
+0;
+#600000
+1%
+0"
+0!
+12
+00
+01
+0<
+09
+1;
+07
+0:
+#640000
+0%
+1"
+02
+10
+19
+0;
+17
+1=
+0B
+1:
+0@
+0N
+08
+03
+0#
+#680000
+1%
+1!
+12
+11
+1<
+1;
+1F
+0=
+1A
+1B
+1?
+#720000
+0%
+0"
+02
+00
+09
+0;
+07
+0F
+0:
+#760000
+1%
+1"
+0!
+12
+10
+01
+0<
+19
+1;
+17
+1F
+0A
+1G
+1:
+1@
+1H
+1L
+0F
+0G
+1M
+#800000
+0%
+0"
+02
+00
+09
+0;
+07
+1=
+0B
+1F
+0L
+1G
+0M
+0:
+#840000
+1%
+1"
+1!
+12
+10
+11
+1<
+19
+1;
+17
+0F
+0=
+1B
+0G
+1J
+1:
+0H
+1K
+1M
+0J
+#880000
+0%
+0"
+02
+00
+09
+0;
+07
+1I
+0:
+#920000
+1%
+12
+1;
+0I
+#1000000
